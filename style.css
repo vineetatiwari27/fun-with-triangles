@@ -1,0 +1,77 @@
+.navs{
+    
+    color:rgb(170, 21, 21);
+    padding-top: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+body{
+    background-color:aliceblue;
+    
+}
+.navs a{
+    float: right;
+    padding: 10px 30px 10px 10px;
+    color:indigo;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+.nav-bar{
+    background-color: darkturquoise;
+    padding-bottom: 40px;
+display: block;
+}
+
+a:hover{
+    color: chartreuse;
+}
+.quiz, .train, .hyp{
+    text-align: center;
+    padding-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkturquoise;
+}
+.labelQuiz, .question-container{
+    display: block;
+    font-family: cursive;
+    color:maroon;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    font-size: 4vh;
+}
+.inputQuiz{
+    padding: 5px 30px 5px 30px;
+    border-radius: 1em;
+    box-sizing: border-box;
+    
+}
+.check{
+    padding-top: 20px;
+}
+.conclusion{
+    background-color: goldenrod;
+    border: none;
+    color: maroon;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    
+    margin: 1rem auto;
+    display: block;
+}
+form{
+    text-align: center;
+}
+input[type="radio"] {
+    margin-right: 0.5rem;
+}
+.sub  {
+    padding-top: 20px;
+}
+#win,#lose,#calc,#calcArea{
+    text-align: center;
+    color:maroon;
+}
